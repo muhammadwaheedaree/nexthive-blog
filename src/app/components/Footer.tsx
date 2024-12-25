@@ -57,13 +57,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2">
               <li className="flex items-center"><Mail size={16} className="mr-2" /> contact@techblog.com</li>
-              <li className="flex items-center"><Phone size={16} className="mr-2" /> +1 (555) 123-4567</li>
-              <li className="flex items-center"><MapPin size={16} className="mr-2" /> 123 Tech Street, San Francisco, CA 94105</li>
+              <li className="flex items-center"><Phone size={16} className="mr-2" /> +92 (323) 829-3672</li>
+              <li className="flex items-center"><MapPin size={16} className="mr-2" /> 108 karachi, Sindh, Pakistan</li>
             </ul>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2023 TechBlog. All rights reserved.</p>
+          <p>&copy; 2024 TechBlog. All rights reserved.</p>
         </div>
       </div>
     </footer>

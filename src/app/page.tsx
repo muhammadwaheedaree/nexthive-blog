@@ -47,9 +47,9 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: 'Alex Johnson', role: 'Tech Analyst', image: '/placeholder.svg?height=100&width=100', articles: 42 },
-              { name: 'Sarah Lee', role: 'UX Designer', image: '/placeholder.svg?height=100&width=100', articles: 38 },
-              { name: 'Mike Chen', role: 'AI Researcher', image: '/placeholder.svg?height=100&width=100', articles: 51 },
+              { name: 'Alex Johnson', role: 'Tech Analyst', image: '/Alex Johnson.jpg', articles: 42 },
+              { name: 'Sarah Lee', role: 'UX Designer', image: '/Sarah Lee.jpg', articles: 38 },
+              { name: 'Waheed Murad', role: 'AI Researcher', image: '/waheed.jpg', articles: 51 },
             ].map((author) => (
               <div key={author.name} className="flex flex-col items-center space-y-4 bg-card p-6 rounded-lg shadow-md">
             <Image  
@@ -111,9 +111,9 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "The Future of AI", host: "Dr. Emily Watson", duration: "45 min", image: "/placeholder.svg?height=200&width=200", youtubeLink: "https://www.youtube.com/watch?v=8V20HkoiNtc" },
-              { title: "Cybersecurity Trends", host: "Mark Thompson", duration: "38 min", image: "/placeholder.svg?height=200&width=200", youtubeLink: "https://www.youtube.com/watch?v=bM0PmwOlifE" },
-              { title: "Blockchain Revolution", host: "Lisa Chen", duration: "42 min", image: "/placeholder.svg?height=200&width=200", youtubeLink: "https://www.youtube.com/watch?v=SSo_EIwHSd4" },
+              { title: "The Future of AI", host: "Samuel Harris Altman", duration: "36 min", image: "/AI.jpg", youtubeLink: "https://www.youtube.com/watch?v=tn0XpTAD_8Q" },
+              { title: "Cybersecurity Trends", host: "Jeff Crume", duration: "7 min", image: "/cyber-security.jpg", youtubeLink: "https://www.youtube.com/watch?v=6TE0LovKQa4" },
+              { title: "Blockchain Revolution", host: "Rajesh Dhuddu", duration: "18 min", image: "/bitcoin.jpg", youtubeLink: "https://www.youtube.com/watch?v=OrnvX92vlu8" },
             ].map((podcast) => (
               <div key={podcast.title} className="bg-card p-4 rounded-lg shadow-md">
                 <Image
