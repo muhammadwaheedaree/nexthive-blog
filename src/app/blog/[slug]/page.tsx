@@ -15,14 +15,7 @@ export default function BlogPost() {
   const [newComment, setNewComment] = useState({ author: '', content: '' })
 
   if (!post) {
-    return (
-      <div className="container mx-auto px-4 py-12">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-2xl font-bold mb-4">Post not found</h1>
-          <p className="text-muted-foreground">The blog post you are looking for does not exist or has been removed.</p>
-        </div>
-      </div>
-    )
+    return <div className="container mx-auto px-4 py-12">Post not found</div>
   }
 
   const handleCommentSubmit = (e: React.FormEvent) => {
@@ -51,7 +44,7 @@ export default function BlogPost() {
       </article>
       
       <div className="mt-12 max-w-3xl mx-auto">
-        <h2 className="text-2xl font-semibold mb-4">Comments ({comments.length})</h2>
+        <h2 className="text-2xl font-semibold mb-4">Comments</h2>
         <form onSubmit={handleCommentSubmit} className="mb-8 space-y-4">
           <Input
             type="text"
@@ -71,9 +64,7 @@ export default function BlogPost() {
           <div key={comment.id} className="bg-muted p-4 rounded mb-4">
             <p className="font-semibold">{comment.author}</p>
             <p className="mt-2">{comment.content}</p>
-            <p className="text-sm text-muted-foreground mt-2">
-              {new Date(comment.createdAt).toLocaleString()}
-            </p>
+            <p className="text-sm text-muted-foreground mt-2">{new Date(comment.createdAt).toLocaleString()}</p>
           </div>
         ))}
       </div>
