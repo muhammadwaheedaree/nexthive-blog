@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <div id="home" className="py-12 md:py-24 text-center bg-[url('/grid.svg')] bg-center">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text px-4">
-        Welcome to Blogaroo
+        Welcome to NextHive
       </h1>
       <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-4">
         Discover insightful articles about development, design, and technology

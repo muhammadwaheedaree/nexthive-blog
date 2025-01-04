@@ -86,9 +86,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div id="why-techblog" className="mb-16 scroll-mt-20">
+        <div id="why-NextHive" className="mb-16 scroll-mt-20">
           <h2 className="text-3xl font-bold mb-6 flex items-center gap-2">
-            <Lightbulb className="text-primary" /> Why Choose TechBlog?
+            <Lightbulb className="text-primary" /> Why Choose NextHive?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
